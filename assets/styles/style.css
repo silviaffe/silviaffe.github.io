@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/*base styling*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1, h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 57px; 
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10%;
+}
+    
+h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+    
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 3.5%;
+}
+
+
+
+
+
+
+
+/*Menu section*/
+
+
+.logo {
+    width: 171.16px;
+    height: 42px;
+}
+
+.menu-icon {
+    width: 32px;
+    height: 26px;
+    display: none;
+}
+
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 54px;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: rgba(205, 205, 205, 1);
+    transition: .3s ease-in-out;
+}
+
+
+
+/*Content 1*/
+
+#content-1 {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1-left {
+    flex-basis: 37%;
+}
+
+.content1-right {
+    flex-basis: 37%;
+}
+
+.button {
+    background: rgba(45, 163, 178, 1);
+    border: none;
+    border-radius: 13px;
+    padding: 12px 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+
+    display: inline-block;
+    margin-top: 9%;
+}
+
+button:hover {
+   cursor: pointer; 
+   background: rgba(182, 214, 217, 1);
+   transition: .3s ease-in-out;
+}
+
+.illustration {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* content-2*/
+
+#content-2 {
+    background-color: rgba(224, 244, 246, 1);
+    color: black;
+    padding: 10% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content2-left {
+    flex-basis: 30%;
+}
+
+.prgf {
+    margin-top: 10%;
+}
+.content2-right {
+    flex-basis: 50%;
+    display: flex;
+	flex-direction: column;
+}
+
+.card {
+    padding: 3rem 8rem;
+    color: #222;
+    background-color: #ffffff;
+    margin: 1.6rem;
+    text-align: center;
+    
+}
+
+.kanan-atas {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+
+/* content-3*/
+
+#content-3 {
+    flex-direction: column;
+    padding: 10% 30%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-2 {
+    background: rgba(45, 163, 178, 1);
+    border: none;
+    border-radius: 13px;
+    padding: 12px 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+
+    display: inline-block;
+    margin-top: 15%;
+}
+
+
+
+/* content-4 */
+
+#content-4 {
+    background-color: rgba(251, 248, 248, 1);
+    padding: 4% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content4-left {
+    flex-basis: 45%;
+    display: flex;
+}
+
+.content4-right {
+    flex-basis: 40%;
+    display: flex;
+}
+
+.content4-new {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-profil {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 15%;
+}
+
+.h3-1 {
+    margin-bottom: 3%;
+}
+
+div ul {
+    margin-top: 10%;
+}
+
+div ul li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    list-style-type: none;
+    margin-top: 3%;
+}
+
+
+
+/*Footer*/
+
+footer {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.prgf-3 {
+    margin-top: 0%;
+}
+
+
+
+/*Tablet*/
+
+@media only screen and (max-width:1000px) {
+    h1 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    h3 {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 10%;
+    }
+        
+    h4 {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+    }
+        
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 3.5%;
+    }
+
+
+
+    nav {
+        padding: 2% 8%;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navig {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        display: flex;
+        width: auto;
+        height: 15px;
+    }
+
+    .logo {
+        width: 100.81px;
+        height: 25px;
+    }
+
+    nav ul {
+        background-color: rgba(45, 163, 178, 1);
+        display: none; 
+    }
+
+    .showmenu {
+        display: block;
+    }
+    nav ul li {
+        display: block;
+        padding: 3%;
+    }
+    nav ul li a {
+        color: white;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+
+
+    /*content 1*/
+
+    #content-1 {
+        padding: 8% 8%;
+        padding-top: 6%;
+    }
+
+    .button {
+        margin-top: 15%;
+        font-size: 12px;
+        padding: 9px 9px;
+    }
+
+    .content1-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+    /*content 2*/
+
+    #content-2 {
+        padding: 8% 8%;
+        display: flex;
+    }
+
+    .card {
+        padding: 2rem 6rem;
+    }
+
+    .prgf {
+        margin-bottom: 10%;
+    }
+
+
+
+
+    /* content-3*/
+
+    #content-3 {
+        padding: 15% 30%;
+    }
+
+    .button-2 {
+        margin-top: 15%;
+        font-size: 12px;
+        padding: 9px 27px;
+    }
+
+
+
+    /* content-4 */
+
+    #content-4 {
+        padding: 7% 8%;
+        display: flex;
+    }
+
+    .content4-left {
+        flex-basis: 40%;
+        display: flex;
+    }
+    
+    .content4-right {
+        flex-basis: 47%;
+        display: flex;
+    }
+
+    div ul li {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        list-style-type: none;
+        margin-top: 3%;
+    }
+
+    .foto-profil {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 15%;
+    }
+}
+
+
+
+
+
+
+/*Smartphone*/
+
+@media only screen and (max-width:480px) {
+
+    h1 {
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+        
+    p {
+        text-align: center;
+    }
+
+
+    nav {
+        padding: 5% 8%;
+    }
+
+
+    /*content 1*/
+
+    #content-1 {
+        padding: 30% 8%;;
+        flex-direction: column;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 9px 27px;
+        margin-top: 15%;
+    }
+
+    .content1-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    /*content 2*/
+
+    #content-2 {
+        padding: 15% 13%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 2rem 6rem;
+    }
+
+    .kanan-atas {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .prgf {
+        margin-bottom: 10%;
+    }
+
+
+
+
+    /* content-3*/
+
+    #content-3 {
+        padding: 45% 15%;
+    }
+
+    .button-2 {
+        margin-top: 15%;
+        font-size: 12px;
+        padding: 9px 27px;
+    }
+
+
+
+    /* content-4 */
+
+    #content-4 {
+        padding: 10% 13%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content4-right {
+        margin-top: 15%;
+    }
+
+    .content4-new {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tentang {
+        padding-left: 34%;
+    }
+
+    .tentang-2 {
+        padding-left: 60%;
+    }
+
+    aside {
+        padding-right: 10%;
+    }
+
+    .prgf-3 {
+        text-align: left;
+    }
+
+    div ul li {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        list-style-type: none;
+        margin-top: 3%;
+    }
+
+    .foto-profil {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 15%;
+    }
+
+
+
+    footer {
+        padding: 5% 8%;
+    }
+}
+
+
+

@@ -1,0 +1,12 @@
+JavaScript pada web GrowUp
+
+
+Feature javascript yang digunakan adalah toggle 
+yang menyembunyikan menu dalam icon menu.
+
+
+pada saat ukuran layar kurang dari 1000 px, 
+maka semua menu akan tersembunyi dalam icon menu.
+semua menu akan muncul kembali ketika icon menu 
+diklik dan akan bersembunyi kembali ketika icon 
+menu diklik kembali.
